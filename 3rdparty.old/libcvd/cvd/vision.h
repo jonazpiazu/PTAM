@@ -22,6 +22,7 @@
 #ifndef CVD_VISION_H_
 #define CVD_VISION_H_
 
+#include <stdint.h>
 #include <vector>
 #include <memory>
 

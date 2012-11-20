@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "cvd/abs.h"
 #include "cvd/convolution.h"
 using namespace std;

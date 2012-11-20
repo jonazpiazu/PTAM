@@ -34,6 +34,7 @@
 #define CVD_IMAGE_H
 
 #include <string.h>
+#include <stddef.h>
 #include <cvd/image_ref.h>
 #include <cvd/exceptions.h>
 #include <string>

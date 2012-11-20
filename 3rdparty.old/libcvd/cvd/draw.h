@@ -22,6 +22,7 @@
 #ifndef CVD_DRAW_H_
 #define CVD_DRAW_H_
 
+#include <stdint.h>
 #include <cvd/exceptions.h>
 #include <cvd/image.h>
 #include <cvd/image_ref.h>
