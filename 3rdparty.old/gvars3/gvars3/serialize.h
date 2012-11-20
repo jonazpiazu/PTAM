@@ -21,6 +21,7 @@
 
 #ifndef GV3_INC_SERIALIZE_H
 #define GV3_INC_SERIALIZE_H
+#include <stdio.h>
 #include <gvars3/config.h>
 #include <gvars3/default.h>
 #include <string>
