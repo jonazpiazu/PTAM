@@ -7,12 +7,17 @@ CC = g++
 COMPILEFLAGS = ${CPPFLAGS} -D_LINUX -D_REENTRANT -Wall  -O3 -march=nocona -msse3
 LINKFLAGS = ${LDFLAGS}  -lblas -llapack -lGVars3 -lcvd
 
-# add OpenCV path
+# add OpenCV dependencies
 COMPILEFLAGS += $(shell pkg-config --cflags opencv)
 LINKFLAGS += $(shell pkg-config --libs opencv)
 
+# add gstreamer dependencies
+COMPILEFLAGS += $(shell pkg-config --cflags glib-2.0) $(shell pkg-config --cflags gstreamer-0.10)
+LINKFLAGS += $(shell pkg-config --libs glib-2.0) $(shell pkg-config --libs gstreamer-0.10) -lgstapp-0.10
+
 # Edit this line to change video source
 VIDEOSOURCE = VideoSource_Linux_OpenCV.o
+#VIDEOSOURCE = VideoSource_Linux_Gstreamer_File.o
 
 OBJECTS=	main.o\
 		GLWindow2.o\
