@@ -1,0 +1,17 @@
+A D/IRIX////
+A D/Linux////
+A D/MMX////
+A D/NEON////
+A D/OSX////
+A D/SSE2////
+A D/Win32////
+A D/fast////
+A D/i686////
+A D/noarch////
+A D/nothread////
+A D/posix////
+A D/thread////
+R D/posix////
+R D/SSE2////
+R D/NEON////
+R D/MMX////
