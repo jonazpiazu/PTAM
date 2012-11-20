@@ -6972,7 +6972,7 @@ echo $ECHO_N "checking for v4l2... $ECHO_C" >&6; }
 			cat >conftest.$ac_ext <<_ACEOF
 	#include <sys/types.h>
 								#include <linux/types.h>
-								#include <linux/videodev.h>
+								#include <linux/videodev2.h>
 								int main(){V4L2_PIX_FMT_GREY;return 0;}
 _ACEOF
 rm -f conftest.$ac_objext
@@ -7093,7 +7093,7 @@ _ACEOF
 		save_CXXFLAGS="$CXXFLAGS"
 		a=
 
-for ac_header in linux/videodev.h
+for ac_header in linux/videodev2.h
 do
 as_ac_Header=`echo "ac_cv_header_$ac_header" | $as_tr_sh`
 if { as_var=$as_ac_Header; eval "test \"\${$as_var+set}\" = set"; }; then

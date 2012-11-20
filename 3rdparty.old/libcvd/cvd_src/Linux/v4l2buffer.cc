@@ -76,7 +76,8 @@ void ErrorInfo(int e)
 	#define K26(X) X
 	#define K24(X) 
 #else
-	#error "Can't do v4l2 for this kernel version"
+	#define K26(X) X
+	#define K24(X) 
 #endif
 
 
