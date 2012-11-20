@@ -17,7 +17,6 @@
 */
 
 #include "VideoSource.h"
-#include <cvd/Linux/v4lbuffer.h>
 #include <cvd/colourspace_convert.h>
 #include <cvd/colourspaces.h>
 #include <gvars3/instances.h>
