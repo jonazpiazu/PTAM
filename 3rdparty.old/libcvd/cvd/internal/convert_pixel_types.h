@@ -22,6 +22,7 @@
 #define CVD_CONVERT_PIXEL_TYPES_H
 
 #include <math.h>
+#include <string.h>
 
 #include <cvd/abs.h>
 #include <cvd/internal/scalar_convert.h>
