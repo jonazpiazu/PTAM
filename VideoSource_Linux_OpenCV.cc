@@ -23,6 +23,7 @@
 #include <opencv/highgui.h>
 #include <opencv/cxcore.h>
 #include <opencv/cv.h>
+#include "opencv2/opencv.hpp"
 
 using namespace CVD;
 using namespace std;
