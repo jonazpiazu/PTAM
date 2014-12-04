@@ -5,7 +5,7 @@
 # Or to change the compiler's optimization flags
 CC = g++
 COMPILEFLAGS = ${CPPFLAGS} -D_LINUX -D_REENTRANT -Wall  -O3 -march=nocona -msse3
-LINKFLAGS = ${LDFLAGS}  -lblas -llapack -lGVars3 -lcvd
+LINKFLAGS = ${LDFLAGS}  -lblas -llapack -lGVars3 -lcvd -lGL -lGLU 
 
 # add OpenCV dependencies
 COMPILEFLAGS += $(shell pkg-config --cflags opencv)

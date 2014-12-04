@@ -20,9 +20,7 @@
 #include <cvd/colourspace_convert.h>
 #include <cvd/colourspaces.h>
 #include <gvars3/instances.h>
-#include <opencv/highgui.h>
-#include <opencv/cxcore.h>
-#include <opencv/cv.h>
+#include "opencv2/highgui.hpp"
 
 using namespace CVD;
 using namespace std;
